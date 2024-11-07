@@ -1,0 +1,58 @@
+/* 1439 - 769 */
+@media screen and (max-width: 1301px) {
+  header {
+    padding: 18px 64px;
+  }
+
+
+
+  /* section1 */
+  .section1 {
+    height: 560px;
+    padding-top: 100px;
+    overflow-x: scroll;
+  }
+/* section2 */
+  .section2{ 
+    padding: 64px 0 64px 64px;
+  }
+  .section_child {
+       overflow-x: scroll;
+  }
+  .section_child_article{
+flex: 1 0 282px;
+  }
+}
+
+/* 880 PIXEL */
+
+@media screen and (max-width: 881px) {
+  header {
+    padding: 18px 24px;
+  }
+
+  .header_button,
+  .header_nav {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  /* section1 */
+  .section1 {
+    height: 420px;
+    padding-top: 80px;
+  }
+
+  /* section2 */
+  .section2{ 
+    padding: 24px 0 24px 24px;
+  }
+
+  /* footer */
+footer{
+     padding-block: 24px;
+   }
+}
