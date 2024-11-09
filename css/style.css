@@ -82,17 +82,6 @@ header {
   color: #fff;
 }
 
-.section1_isari {
-  width: 56px;
-  height: 56px;
-  padding: 7px;
-}
-
-.isari {
-  width: 100%;
-  height: 100%;
-}
-
 /* section2 */
 .section2 {
   background: #dee2eb;
@@ -116,20 +105,15 @@ header {
 }
 
 .section_child_article {
-  padding: 8px;
+  padding: 8px 8px 16px 8px;
   background: #311500;
-  flex: 1 0 20%;
-  overflow: hidden;
-}
-
-.article_image {
-  margin-bottom: 16px;
 }
 
 .article_image_child {
   height: 180px;
   width: 100%;
   object-fit: cover;
+  margin-bottom: 16px;
 }
 h4 {
   font-family: Inter;
@@ -156,42 +140,50 @@ h4 {
 }
 
 .price_button {
-  background: none;
-  border: none;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #dee2eb;
+  background: #c46a2b;
+  border-radius: 8px;
 }
 
 /* footer */
-footer{
+footer {
   background: #311500;
-padding-block: 64px;
-display: flex;
-justify-content: center;
-column-gap: 80px;
+  padding-block: 64px;
+  display: flex;
+  justify-content: center;
+  column-gap: 80px;
 }
-.footer_section{
+.footer_section {
   text-align: center;
 }
 
-.footer_h{
-  font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.10000000149011612px;
-
-color: #C46A2B;
-margin-bottom: 16px;
+.footer_ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
 }
 
-.footer_li{
+.footer_h {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+
+  color: #c46a2b;
+  margin-bottom: 16px;
+}
+
+.footer_li {
   list-style: none;
 }
 
-.footer_a{
+.footer_a {
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   color: white;
-
 }
